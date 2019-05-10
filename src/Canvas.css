@@ -1,0 +1,32 @@
+#app-view {
+  display: grid;
+  grid-template-rows: repeat(4, 160px) 1fr;
+  grid-template-columns: 250px 1fr;
+  grid-template-areas:
+    "tf bt"
+    "nf bt"
+    "rf bt"
+    "cf bt"
+    "em bt";
+  width: 100%;
+}
+
+#binary-tree {
+  grid-area: bt;
+}
+
+#tree-form {
+  grid-area: tf;
+}
+
+#node-form {
+  grid-area: nf;
+}
+
+#randomize-form {
+  grid-area: rf;
+}
+
+#clear-form {
+  grid-area: cf;
+}

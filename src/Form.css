@@ -1,0 +1,64 @@
+form {
+  border: 1px solid grey;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+form h2 {
+  margin: 10px;
+}
+
+form div {
+  display: flex;
+}
+
+form input[type='number'] {
+  margin-left: auto;
+}
+
+.divo {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  }
+
+  .divo2 {
+  width: 200px;
+  border: 15px solid green;
+  height: 500px;
+  
+  }
+
+  .label {
+  color: white;
+  padding: 8px;
+}
+
+.texto{
+	text-align: center;
+	color: green;
+	font-family: "Times New Roman";
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.info {background-color: #2196F3;} /* Blue */
+.warning {background-color: #ff9800;} /* Orange */
+.danger {background-color: #f44336;} /* Red */ 
+.other {background-color: #e7e7e7; color: black;} /* Gray */
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.topp{
+	margin-top: 20px
+}

@@ -1,0 +1,30 @@
+#binary-tree {
+  border: 1px solid grey;
+  border-radius: 2px;
+  box-sizing: content-box;
+  height: 700px;
+  width: 1000px;
+}
+
+circle {
+  border: 1px solid black;
+  fill: white;
+  stroke: black;
+  z-index: 1;
+}
+
+line {
+  stroke: black;
+  z-index: 10;
+}
+
+text {
+  text-anchor: middle;
+  font-size: 12px;
+}
+.divo {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
